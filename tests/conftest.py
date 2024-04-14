@@ -12,7 +12,7 @@ archive = os.path.join(RESOURCE_DIR,'test_zip.zip')
 
 
 @pytest.fixture(scope="session", autouse=True)
-def arсhive_file():
+def archive_file():
     # создаем папку
     if not os.path.exists(RESOURCE_DIR):
         os.mkdir(RESOURCE_DIR)
